@@ -5,6 +5,7 @@ const DashboardHeader = () => {
     <div className="dashboard_header">
       <div className=" manage_with">
         <div className="serch">
+          <img className="search_img" src="/images/searc.svg" alt="" />
           <input
             type="text"
             className="form-control search_input"

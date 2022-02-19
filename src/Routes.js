@@ -7,7 +7,7 @@ import FileManager from "./pages/FileManager";
 import Analytics from "./pages/Analytics";
 import Order from "./pages/Order";
 import Saved from "./pages/Saved";
-import Setting from "./pages/Setting";
+import AllPatientData from "./pages/AllPatientData";
 import Login from "./Login";
 export default function routes() {
   return (
@@ -24,7 +24,7 @@ export default function routes() {
           <Route path="/file-manager" element={<FileManager />} />
           <Route path="/order" element={<Order />} />
           <Route path="/saved" element={<Saved />} />
-          <Route path="/settings" element={<Setting />} />
+          <Route path="/all-patient-data" element={<AllPatientData />} />
           {/* <Route path="*" element={<> not found</>} /> */}
         </Routes>
       </SideBar>

@@ -11,12 +11,12 @@ const routes = [
   },
 
   {
-    path: "/file-manager",
+    path: "/all-patient-data",
     name: "Patient",
     image: "/images/plus.svg",
     subRoutes: [
       {
-        path: "/settings",
+        path: "/all-patient-data",
         name: "All patient data",
         image: "/images/clander.svg",
       },
