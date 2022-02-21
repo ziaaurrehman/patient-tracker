@@ -21,7 +21,7 @@ const routes = [
         image: "/images/clander.svg",
       },
       {
-        path: "",
+        path: "/add-new-patient",
         name: "Add new patient",
         image: "/images/clander.svg",
       },
@@ -105,22 +105,22 @@ const routes = [
 const SideBar = ({ children }) => {
   const [isOpen, setIsOpen] = useState(true);
   const toggle = () => setIsOpen(!isOpen);
-  const inputAnimation = {
-    hidden: {
-      width: 0,
-      padding: 0,
-      transition: {
-        duration: 0.2,
-      },
-    },
-    show: {
-      width: "140px",
-      padding: "5px 15px",
-      transition: {
-        duration: 0.2,
-      },
-    },
-  };
+  // const inputAnimation = {
+  //   hidden: {
+  //     width: 0,
+  //     padding: 0,
+  //     transition: {
+  //       duration: 0.2,
+  //     },
+  //   },
+  //   show: {
+  //     width: "140px",
+  //     padding: "5px 15px",
+  //     transition: {
+  //       duration: 0.2,
+  //     },
+  //   },
+  // };
 
   const showAnimation = {
     hidden: {
@@ -204,7 +204,11 @@ const SideBar = ({ children }) => {
                         initial="hidden"
                         animate="show"
                         exit="hidden"
-                        className="link_text"
+                        className={
+                          route.name === "Logout"
+                            ? "link_text lougoutclr"
+                            : "link_text"
+                        }
                       >
                         {route.name}
                       </motion.div>

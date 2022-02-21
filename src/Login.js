@@ -7,8 +7,10 @@ function Login() {
     <div className="login_page">
       <div className="flex1">
         <img className="login_img1" src="/images/logopen.svg" alt=""></img>
-        <p style={{marginBottom:""}} className="login_text">Welcome! Let’s get started where you left.</p>
-        {/* <img className="login_logo" src="/images/sheltorlogo.svg" alt="" /> */}
+        <p style={{ marginBottom: "" }} className="login_text">
+          Welcome! Let’s get started where you left.
+        </p>
+
         <img src="/images/logo.svg" alt=""></img>
       </div>
       <div className="flex2">

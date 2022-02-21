@@ -53,7 +53,7 @@ const SidebarMenu = ({ route, showAnimation, isOpen, setIsOpen }) => {
       <div className="menu" onClick={toggleMenu}>
         <div className="menu_item">
           <div className="icon">
-            <img src={route.image}></img>
+            <img src={route.image} alt=""></img>
           </div>
           <AnimatePresence>
             {isOpen && (

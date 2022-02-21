@@ -4,30 +4,44 @@ const AllPatientData = () => {
   const doctorData = [
     {
       DE: "9/1/2021",
-      patientname: "David",
+      patientname: "Zeehsan wajid",
       DOB: "8/1/2021",
       Specialty: "Orthopedic",
       Phonenumber: "(000) 000-0000",
     },
     {
       DE: "9/1/2021",
-      patientname: "David",
+      patientname: "Zeehsan wajid",
       DOB: "8/1/2021",
       Specialty: "Orthopedic",
       Phonenumber: "(000) 000-0000",
     },
     {
       DE: "9/1/2021",
-      patientname: "David",
+      patientname: "Zeehsan wajid",
       DOB: "8/1/2021",
       Specialty: "Orthopedic",
       Phonenumber: "(000) 000-0000",
     },
     {
       DE: "9/1/2021",
-      patientname: "David",
+      patientname: "Zeehsan wajid",
       DOB: "8/1/2021",
-      Specialty: "8/1/2021",
+      Specialty: "Orthopedic",
+      Phonenumber: "(000) 000-0000",
+    },
+    {
+      DE: "9/1/2021",
+      patientname: "Zeehsan wajid",
+      DOB: "8/1/2021",
+      Specialty: "Orthopedic",
+      Phonenumber: "(000) 000-0000",
+    },
+    {
+      DE: "9/1/2021",
+      patientname: "Zeehsan wajid",
+      DOB: "8/1/2021",
+      Specialty: "Orthopedic",
       Phonenumber: "(000) 000-0000",
     },
   ];
@@ -41,7 +55,7 @@ const AllPatientData = () => {
         <td className="table_text">{data.Phonenumber}</td>
         <td className="table_text">
           <img src="/images/pen.svg" alt="" />
-          <img src="/images/eye.svg" alt="" />
+          <img className="pl-3" src="/images/eye.svg" alt="" />
         </td>
       </tr>
     );
