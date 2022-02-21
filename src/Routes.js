@@ -15,7 +15,7 @@ export default function routes() {
       <Routes>
         <Route exact path="/" element={<Login />} />
       </Routes>
-      <SideBar>
+      {window.location.pathname!=='/' &&<SideBar>
         <Routes>
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/users" element={<Users />} />
@@ -27,7 +27,7 @@ export default function routes() {
           {/* <Route path="*" element={<> not found</>} /> */}
           <Route path="/add-new-patient" element={<Addnewpatient />} />
         </Routes>
-      </SideBar>
+      </SideBar>}
     </>
   );
 }
